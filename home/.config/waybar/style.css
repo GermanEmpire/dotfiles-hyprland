@@ -1,0 +1,103 @@
+* {
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  font-family: "Terminus", "waffle", "Sarasa Gothic HC", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+window#waybar {
+  background: #000000;
+  color: #b2aad3;
+}
+
+tooltip {
+  background: #000000;
+  color: #b2aad3;
+  border: 1px solid #332d49;
+}
+
+#workspaces button {
+  padding: 0 6px;
+  margin: 0;
+  color: #b2aad3;
+  background: #000000;
+}
+
+#workspaces button:hover {
+  box-shadow: none;
+  text-shadow: none;
+  background: #000000;
+}
+
+#workspaces button.active {
+  color: #b2aad3;
+  background: #000000;
+  border-bottom: 2px solid #b2aad3;
+}
+
+#workspaces button.urgent {
+  color: #fabd2f;
+  background: #000000;
+}
+
+#mode,
+#custom-mpris,
+#window,
+#backlight,
+#language,
+#cpu,
+#pulseaudio,
+#battery,
+#network,
+#clock,
+#tray {
+  color: #b2aad3;
+  padding: 0 10px;
+  margin: 0;
+}
+
+#mode,
+#backlight,
+#cpu,
+#clock {
+  background: #000000;
+}
+
+#custom-mpris,
+#pulseaudio,
+#network {
+  background: #000000;
+}
+
+#language,
+#battery {
+  background: #000000;
+}
+
+#window {
+  background: #000000;
+}
+
+#tray {
+  background: #000000;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+#battery.charging {
+  color: #b2aad3;
+}
+
+#battery.warning {
+  color: #fabd2f;
+}
+
+#battery.critical {
+  color: #fb4934;
+}
+
+#pulseaudio.muted {
+  color: #b2aad3;
+}

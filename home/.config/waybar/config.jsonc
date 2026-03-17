@@ -1,0 +1,115 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 26,
+  "spacing": 0,
+
+  "modules-left": [
+    "hyprland/workspaces",
+    "hyprland/submap"
+  ],
+  "modules-center": [
+    "hyprland/window"
+  ],
+  "modules-right": [
+    "backlight",
+    "hyprland/language",
+    "cpu",
+    "pulseaudio",
+    "battery",
+    "network",
+    "clock",
+    "tray"
+  ],
+
+  "hyprland/workspaces": {
+    "disable-scroll": false,
+    "all-outputs": false,
+    "format": "{name}",
+    "on-click": "activate",
+    "sort-by-number": true
+  },
+
+  "hyprland/submap": {
+    "format": "{}"
+  },
+
+  "hyprland/window": {
+    "max-length": 100,
+    "separate-outputs": true
+  },
+
+  "custom/mpris": {
+    "exec": "echo /home/german/.config/waybar/scripts/mpris_tail.py",
+    "return-type": "plain",
+    "interval": 1,
+    "on-click": "/home/german/.config/waybar/scripts/mpris_tail.py play-pause",
+    "on-click-right": "/home/german/.config/waybar/scripts/mpris_tail.py next"
+  },
+
+  "backlight": {
+    "device": "intel_backlight",
+    "format": " {percent}%",
+    "tooltip": false
+  },
+
+  "hyprland/language": {
+    "format": "  {short} ",
+    "tooltip": false
+  },
+
+  "cpu": {
+    "interval": 1,
+    "format": " {usage}%",
+    "tooltip": false
+  },
+
+  "pulseaudio": {
+    "scroll-step": 5,
+    "format": "{icon} {volume}%",
+    "format-muted": " Muted",
+    "format-icons": {
+      "default": ["", "", ""]
+    },
+    "on-click-right": "tdrop -am -w 1000 -h 650 -x 23% -y 17% -n 2 kitty -e pulsemixer",
+    "tooltip": false
+  },
+
+  "battery": {
+    "bat": "BAT0",
+    "adapter": "ACAD",
+    "interval": 2,
+    "full-at": 99,
+    "format": "{icon} {capacity}%",
+    "format-charging": "{icon} {capacity}%",
+    "format-full": " Full",
+    "format-icons": ["", "", "", "", "", "", "", "", "", ""],
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "tooltip": false
+  },
+
+  "network": {
+    "interface": "wlp0s20f3",
+    "interval": 3,
+    "format-wifi": "{icon}",
+    "format-ethernet": "󰈀",
+    "format-disconnected": "disconnected",
+    "format-icons": ["", "", "", "", ""],
+    "tooltip": false
+  },
+
+  "clock": {
+    "interval": 5,
+    "format": " {:%I:%M}",
+    "format-alt": "{:%A, %d %b %y}",
+    "tooltip": false
+  },
+
+  "tray": {
+    "icon-size": 16,
+    "spacing": 6
+  }
+}

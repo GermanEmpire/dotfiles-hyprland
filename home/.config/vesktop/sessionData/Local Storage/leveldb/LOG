@@ -1,0 +1,9 @@
+2026/03/16-19:08:24.827 3271 Reusing MANIFEST /home/german/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2026/03/16-19:08:24.840 3271 Recovering log #96
+2026/03/16-19:08:24.840 3271 Reusing old log /home/german/.config/vesktop/sessionData/Local Storage/leveldb/000096.log 
+2026/03/16-19:13:36.397 3294 Level-0 table #100: started
+2026/03/16-19:13:36.415 3294 Level-0 table #100: 42307 bytes OK
+2026/03/16-19:13:36.420 3294 Delete type=0 #96
+2026/03/16-19:53:52.470 3294 Level-0 table #102: started
+2026/03/16-19:53:52.488 3294 Level-0 table #102: 41208 bytes OK
+2026/03/16-19:53:52.493 3294 Delete type=0 #99

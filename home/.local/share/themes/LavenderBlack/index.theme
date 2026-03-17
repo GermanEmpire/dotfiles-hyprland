@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=LavenderBlack
+Comment=Lavender AMOLED GTK Theme
+
+[X-GNOME-Metatheme]
+GtkTheme=LavenderBlack
+MetacityTheme=LavenderBlack
+IconTheme=Papirus-Dark
+CursorTheme=Bibata-Modern-Ice
+ButtonLayout=menu:minimize,maximize,close

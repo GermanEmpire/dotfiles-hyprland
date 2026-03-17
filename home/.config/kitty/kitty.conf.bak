@@ -1,0 +1,38 @@
+# --- Lavender Black (bspwm minimal) ---
+font_size 12
+
+background #000000
+foreground #b2aad3
+selection_background #2a263c
+selection_foreground #f3f2ff
+
+cursor #beafe9
+cursor_text_color #000000
+
+# ANSI
+color0  #000000
+color1  #3a2f4d
+color2  #4a3a66
+color3  #5a4a80
+color4  #6b5b9a
+color5  #7c6bb5
+color6  #8d7bd0
+color7  #d6cfff
+
+# Bright
+color8  #1a1624
+color9  #5a4a80
+color10 #7c6bb5
+color11 #8d7bd0
+color12 #a89de6
+color13 #bfb6f2
+color14 #d6cfff
+color15 #ffffff
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="Sarasa Term CL"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
